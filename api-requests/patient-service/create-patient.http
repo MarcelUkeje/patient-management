@@ -1,0 +1,13 @@
+### Creates a new patient entity
+POST http://localhost:4000/patients
+Content-Type: application/json
+
+{
+  "name": "Odogwu Marcel kafkatest",
+  "email": "ukejemarcelkafkatest@gmail.com",
+  "address": "29 Ezinifite Street",
+  "dateOfBirth": "2003-04-02",
+  "registeredDate": "2026-07-13"
+}
+
+###
