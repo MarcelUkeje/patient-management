@@ -1,5 +1,6 @@
 ### Updates an existing patient entity
-PUT http://localhost:4000/patients/123e4567-e89b-12d3-a456-426614174000
+PUT http://lb-b72b9500.elb.localhost.localstack.cloud:4566/api/patients/123e4567-e89b-12d3-a456-426614174000
+Authorization: Bearer {{token}}
 Content-Type: application/json
 
 {
